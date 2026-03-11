@@ -1,0 +1,20 @@
+{
+  "name": "oraculo-marketplace",
+  "owner": {
+    "name": "Lucas"
+  },
+  "metadata": {
+    "description": "Oraculo plugin marketplace"
+  },
+  "plugins": [
+    {
+      "name": "oraculo",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/lucas-stellet/oraculo.git",
+        "path": "claude-kit"
+      },
+      "description": "Socratic guide and team orchestrator for quality product development"
+    }
+  ]
+}
